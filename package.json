@@ -1,0 +1,25 @@
+{
+  "name": "template-react-package",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "author": "Roberto Ríos <contact@rrios.dev>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext ts,tsx"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.26",
+    "eslint-config-react": "*",
+    "jest-config-react": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsconfig": "*"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
